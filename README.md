@@ -1,1 +1,1 @@
-# custom-rpc
+# ✨ ┊ Custom RPC
