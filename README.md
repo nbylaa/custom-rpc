@@ -35,13 +35,14 @@ const client = new discord.Client();
 client.login(token);
 
 client.on("ready", () => {
-ㅤrpc.getRpcImage(app, "your_asset_name").then(large => {
+ㅤrpc.getRpcImage(app_id, "your_asset_name").then(large => {
 ㅤㅤsetInterval(() => {
 ㅤㅤㅤclient.user.setPresence({
 ㅤㅤㅤㅤgame: {
 ㅤㅤㅤㅤㅤname: "activity_name",
 ㅤㅤㅤㅤㅤtype: 1,//Choose the type of activity in the form of numbers (https://discord.com/developers/docs/game-sdk/activities#data-models-activitytype-enum)
 ㅤㅤㅤㅤㅤurl: twitch, //Enter this if you want to set streaming status
+ㅤㅤㅤㅤㅤapplication_id: app_id,
 ㅤㅤㅤㅤㅤassets: { large_image: large.id },
 ㅤㅤㅤㅤㅤdetails: "activity_details",
 ㅤㅤㅤㅤㅤstate: "activity_state"
