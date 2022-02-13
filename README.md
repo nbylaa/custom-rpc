@@ -18,3 +18,13 @@ You only need 2 packages to make this rpc
 npm i discord.js-selfbot-v11
 npm i discordrpcgenerator
 ```
+
+## #4 ┊ Start Making RPC
+```js
+const discord = require ("discord.js-selfbot-v11");
+const rpc = require ("discordrpcgenerator");
+```
+You have to enter your token, twitch link and app id into the environment
+```js
+const { token, app_id, twitch } = process.env;
+```
