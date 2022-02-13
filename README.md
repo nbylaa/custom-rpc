@@ -6,6 +6,13 @@ I will give the tutorial (I suggest you use this code in [replit](https://replit
 
 ☁️ The language used in this code is [`NodeJS`](https://nodejs.org)
 
+Steps to Make RPC:
+#1 ┊ [Uploading assets](https://github.com/nbylaa/custom-rpc/blob/main/README.md#1--uploading-assets)
+#2 ┊ [Setting up tokens](https://github.com/nbylaa/custom-rpc/blob/main/README.md#2--setting-up-tokens)
+#3 ┊ [Installing the package](https://github.com/nbylaa/custom-rpc/blob/main/README.md#3--installing-the-package)
+#4 ┊ [Start Making RPC](https://github.com/nbylaa/custom-rpc/blob/main/README.md#4--start-making-rpc)
+#5 ┊ [Make it active 24/7](https://github.com/nbylaa/custom-rpc/blob/main/README.md#5--make-it-active-247)
+
 ## #1 ┊ Uploading assets
 You have to upload an image to be your rpc asset, upload it on [Discord Dev Portal](https://discord.com/developers/applications)
 
@@ -56,9 +63,10 @@ client.on("ready", () => {
 ㅤ})
 });
 ```
-Wait 10-15 seconds until your rpc appears, do you want the rpc to always active?, enter this code
+Wait 10-15 seconds until your rpc appears
 
 ## #5 ┊ Make it active 24/7
+Do you want the rpc to always active?, enter this code
 
 ```js
 require("http").createServer((_, res) => res.end("Uptime!")).listen(3000)
