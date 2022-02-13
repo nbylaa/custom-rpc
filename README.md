@@ -28,3 +28,20 @@ You have to enter your token, twitch link and app id into the environment
 ```js
 const { token, app_id, twitch } = process.env;
 ```
+```js
+const client = new discord.Client();
+client.login(token);
+
+client.on("ready", () => {
+ㅤrpc.getRpcImage(app, "your_asset_name").then(large => {
+ㅤㅤsetInterval(() => {
+ㅤㅤㅤclient.user.setPresence({
+ㅤㅤㅤㅤgame: {
+ㅤㅤㅤㅤㅤname: "Discord✨",
+ㅤㅤㅤㅤㅤtype: //
+ㅤㅤㅤㅤ}
+ㅤㅤㅤ})
+ㅤㅤ}, 16000)
+ㅤ})
+});
+```
