@@ -51,7 +51,7 @@ client.on("ready", () => {
 ㅤ})
 });
 ```
-Wait 10-15 seconds until your rpc appears, do you want the rpc to remain active?, enter this code
+Wait 10-15 seconds until your rpc appears, do you want the rpc to always active?, enter this code
 ```js
 require("http").createServer((_, res) => res.end("Uptime!")).listen(3000)
 ```
