@@ -4,7 +4,7 @@ Do you want a custom discord rich presence like [this](https://raw.githubusercon
 
 I will give the tutorial (I suggest you use this code in [replit](https://replit.com/repls))
 
-☁️ The language used in this code is "NodeJS"
+☁️ The language used in this code is [`NodeJS`](https://nodejs.org)
 
 ## #1 ┊ Uploading assets
 You have to upload an image to be your rpc asset, upload it on [Discord Dev Portal](https://discord.com/developers/applications)
