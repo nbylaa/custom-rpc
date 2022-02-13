@@ -39,9 +39,20 @@ client.on("ready", () => {
 ㅤㅤㅤㅤgame: {
 ㅤㅤㅤㅤㅤname: "Discord✨",
 ㅤㅤㅤㅤㅤtype: //Choose the type of activity in the form of numbers (https://discord.com/developers/docs/game-sdk/activities#data-models-activitytype-enum)
+ㅤㅤㅤㅤㅤurl: twitch, //Enter this if you want to set streaming status
+ㅤㅤㅤㅤㅤassets: { large_image: large.id },
+ㅤㅤㅤㅤㅤdetails: "activity_details",
+ㅤㅤㅤㅤㅤstate: "activity_state"
 ㅤㅤㅤㅤ}
+ㅤㅤㅤ}).then(activity => {
+ㅤㅤㅤㅤconsole.log(\n`✨ ┊ Refresh\n{ timestamp: ${Date.now()} }`);
 ㅤㅤㅤ})
 ㅤㅤ}, 16000)
 ㅤ})
 });
 ```
+Wait 10-15 seconds until your rpc appears, do you want the rpc to remain active?, enter this code
+```js
+require("http").createServer((_, res) => res.end("Uptime!")).listen(3000)
+```
+Put your website hosting on [Uptimerobot](https://uptimerobot.com)
