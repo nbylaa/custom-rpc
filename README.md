@@ -12,6 +12,8 @@ You have to upload an image to be your rpc asset, upload it on [Discord Dev Port
 ## #2 ┊ Setting up tokens
 To use this code, you must have your discord account token, want to know how? Please watch this [video](https://youtu.be/IVZzyjYyUkc)
 
+⚠️ Don't give your token to others, your account might be hacked, change your password to regenerate tokens
+
 ## #3 ┊ Installing the package
 You only need 2 packages to make this rpc
 ```js
