@@ -10,4 +10,4 @@ You have to upload an image to be your rpc asset, upload it on [Discord Dev Port
 📝 Assets cannot be edited, if you want to change the asset name, you must delete and re-upload the asset to your application
 
 ## #2 ┊ Setting up tokens
-To use this code, you must have your discord account token, want to know how? Please watch this video
+To use this code, you must have your discord account token, want to know how? Please watch this [video](https://youtu.be/IVZzyjYyUkc)
