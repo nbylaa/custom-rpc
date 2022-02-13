@@ -37,8 +37,8 @@ client.on("ready", () => {
 ㅤㅤsetInterval(() => {
 ㅤㅤㅤclient.user.setPresence({
 ㅤㅤㅤㅤgame: {
-ㅤㅤㅤㅤㅤname: "Discord✨",
-ㅤㅤㅤㅤㅤtype: //Choose the type of activity in the form of numbers (https://discord.com/developers/docs/game-sdk/activities#data-models-activitytype-enum)
+ㅤㅤㅤㅤㅤname: "activity_name",
+ㅤㅤㅤㅤㅤtype: 1,//Choose the type of activity in the form of numbers (https://discord.com/developers/docs/game-sdk/activities#data-models-activitytype-enum)
 ㅤㅤㅤㅤㅤurl: twitch, //Enter this if you want to set streaming status
 ㅤㅤㅤㅤㅤassets: { large_image: large.id },
 ㅤㅤㅤㅤㅤdetails: "activity_details",
