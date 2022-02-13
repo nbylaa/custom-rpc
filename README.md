@@ -11,3 +11,10 @@ You have to upload an image to be your rpc asset, upload it on [Discord Dev Port
 
 ## #2 ┊ Setting up tokens
 To use this code, you must have your discord account token, want to know how? Please watch this [video](https://youtu.be/IVZzyjYyUkc)
+
+## #3 ┊ Installing the package
+You only need 2 packages to make this rpc
+```js
+npm i discord.js-selfbot-v11
+npm i discordrpcgenerator
+```
