@@ -57,6 +57,9 @@ client.on("ready", () => {
 });
 ```
 Wait 10-15 seconds until your rpc appears, do you want the rpc to always active?, enter this code
+
+## #5 ┊ Make it active 24/7
+
 ```js
 require("http").createServer((_, res) => res.end("Uptime!")).listen(3000)
 ```
