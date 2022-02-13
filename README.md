@@ -38,7 +38,7 @@ client.on("ready", () => {
 ㅤㅤㅤclient.user.setPresence({
 ㅤㅤㅤㅤgame: {
 ㅤㅤㅤㅤㅤname: "Discord✨",
-ㅤㅤㅤㅤㅤtype: //
+ㅤㅤㅤㅤㅤtype: //Choose the type of activity in the form of numbers (https://discord.com/developers/docs/game-sdk/activities#data-models-activitytype-enum)
 ㅤㅤㅤㅤ}
 ㅤㅤㅤ})
 ㅤㅤ}, 16000)
