@@ -63,8 +63,8 @@ client.on("ready", () => {
 ㅤㅤㅤㅤ}
 ㅤㅤㅤ}).then(activity => {
 ㅤㅤㅤㅤconsole.log(`\n✨ ┊ Refresh\n{ timestamp: ${Date.now()} }`);
-ㅤㅤㅤ}).catch({
-ㅤㅤㅤㅤe => console.log(`\n🚧 ┊ Disconnected\n { timestamp: ${Date.now()} }`);
+ㅤㅤㅤ}).catch(e => {
+ㅤㅤㅤㅤconsole.log(`\n🚧 ┊ Disconnected\n { timestamp: ${Date.now()} }`);
      })
 ㅤㅤ}, 16000)
 ㅤ})
